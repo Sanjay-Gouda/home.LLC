@@ -1,0 +1,60 @@
+:root{
+  --blue-1:#3C429E;
+  --blue-2:#4C52AD;
+  --yellow-1:#FAC742;
+  --white:#FFF;
+  --grey-1:#EDEDED;
+  --shadow-dark:rgba(0,0,0,0.3);
+  --shadow-light:rgba(255,255,255,0.1);
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color:var(--blue-1);  
+}
+
+.jifbFL ,.sc-eDvSVe{
+  justify-content: center;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 9999;
+    top: 20px;
+}
+
+
+input[type="text"]{
+  width:400px !important;
+  background-color: var(--shadow-light) !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 5px !important;
+  color:var(--grey-1) !important;
+  font-size: 1.1em !important;
+}
+
+
+/* .gAvAzt > input{
+  width:400px;
+  background-color: var(--shadow-light);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color:var(--grey-1);
+  font-size: 1.1em;
+} */
+
+.react-search-box-dropdown{
+  width:400px !important;
+  background-color: var(--shadow-light) !important;
+}
+
+.react-search-box-dropdown-list-item{
+  background-color: var(--shadow-light) !important;
+  color:var(--grey-1);
+  
+}
