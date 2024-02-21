@@ -3,7 +3,6 @@ import "./App.css";
 import WeatherApp from "./components/weather-app";
 import ReactSearchBox from "react-search-box";
 import city from "./constant/city.json";
-import styled from "styled-components";
 
 type TweatherInfo = {
   feels_like?: number;
@@ -44,14 +43,10 @@ function App() {
     }
   };
 
-  const StyledReactSearchBox = styled(ReactSearchBox)`
-    border: 1px solid red !important;
-  `;
-
   return (
     <>
-      <StyledReactSearchBox
-        style={{ width: "400px", border: "1px solid red" }}
+      <ReactSearchBox
+        style={{ width: "400px" }}
         inputBackgroundColor="red"
         placeholder="Search City"
         className="searchbox"
